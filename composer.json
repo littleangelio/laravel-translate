@@ -12,28 +12,28 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "LittleAngel",
-            "email": "littleangel@gmail.com"
+            "name": "ShaoZeMing",
+            "email": "szm19920426@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "LittleAngel\\LaravelTranslate\\": "./src"
+            "ShaoZeMing\\LaravelTranslate\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "LittleAngel\\LaravelTranslate\\Test\\": "./tests"
+            "ShaoZeMing\\LaravelTranslate\\Test\\": "./tests"
         }
     },
 
     "extra": {
         "laravel": {
             "providers": [
-                "LittleAngel\\LaravelTranslate\\TranslateServiceProvider"
+                "ShaoZeMing\\LaravelTranslate\\TranslateServiceProvider"
             ],
             "aliases": {
-                "Translate": "LittleAngel\\LaravelTranslate\\Facade\\Translate"
+                "Translate": "ShaoZeMing\\LaravelTranslate\\Facade\\Translate"
             }
         }
     },
