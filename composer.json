@@ -3,7 +3,6 @@
     "description": "原地址：https://github.com/ShaoZeMing/laravel-translate,只是为了项目单纯使用",
     "type": "library",
     "require": {
-        "laravel/framework": "~6.4.1",
         "ShaoZeMing/translate": "^1.0"
     },
     "require-dev": {
